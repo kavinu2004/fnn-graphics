@@ -62,6 +62,13 @@ The `headline` and `body` fields are HTML:
 
 Keep each card to two short paragraphs: what happened, then the joke. Everyone has the PL app, so the cards don't need a stat dump.
 
+## Archive
+
+`archive/` holds the graphics that shipped before this template existed:
+- **gw6**: series cover, stars, waivers and the old weekly standings.
+- **gw7**: the team-news set, whose card header and cover spacing this template copies.
+- **gw8**: the full set, plus `build_gw8.py`, the Pillow script that made it. GW8's fonts were dropped, so treat it as history, not as a reference.
+
 ## Layout
 
 All measurements live in `styles/base.css`. They're calibrated against the GW6/GW7 PNGs:
