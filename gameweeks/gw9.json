@@ -1,0 +1,116 @@
+{
+  "gw": 9,
+  "table": [
+    {
+      "team": "Heung Min Dad", "manager": "Imad Imran", "total": 454, "points": 28, "prev_rank": 1,
+      "headline": ["Lead cut in half —", "61 down to 32"],
+      "body": [
+        "Second-worst score of the week, with 13 points sat on the bench. Weeks spent building a lead, one weekend giving half of it back.",
+        "He signed <b>Lewis-Potter</b> for GW9, got <em>3</em> out of him, then binned him for GW10 to sign <b>Mitoma</b>. Who is injured. Still top, though. For now."
+      ]
+    },
+    {
+      "team": "Wirtz Case Scenario", "manager": "Umar Fazeer", "total": 422, "points": 57, "prev_rank": 2,
+      "headline": ["Top score of the week —", "still picked the wrong keeper"],
+      "body": [
+        "<em>57</em> points, the best in the league, and <b>Van Hecke</b> played centre-forward from centre-back for <em>15</em>. Imad's lead is down to <em>32</em>.",
+        "Then there's <b>Verbruggen</b>: <em>11</em> points, on the bench. Second week running his backup keeper has outscored his starter. Umar should just start whichever one he likes less."
+      ]
+    },
+    {
+      "team": "Los Porros Hermanos", "manager": "Rihab Suyoothi", "total": 396, "points": 45, "prev_rank": 3,
+      "headline": ["Benches Awoniyi —", "Awoniyi scores nine"],
+      "body": [
+        "Rihab finally dropped <b>Awoniyi</b>, and Awoniyi instantly got <em>9</em>. <b>Gonzalo</b> kept his place and got <em>2</em>. Nobody in this league reads a striker worse.",
+        "<b>Colwill</b>, a GW9 signing, did pay off with <em>6</em>. Then for GW10 he claimed Branthwaite, the defender Imad had thrown back a week earlier. Rihab shops in other people's bins."
+      ]
+    },
+    {
+      "team": "Chennaiyin FC", "manager": "Vidhun Muralitharan", "total": 386, "points": 51, "prev_rank": 4,
+      "headline": ["113 in two weeks —", "nobody's hotter"],
+      "body": [
+        "62 last week, <em>51</em> this week. No one has scored more over the fortnight, and Vidhun will make sure you know it.",
+        "Even his waiver landed: <b>Hill</b>, signed for GW9, scored <em>6</em>, one of four defenders on 6. Third place is <em>10</em> points away and he's stopped pretending to be humble."
+      ]
+    },
+    {
+      "team": "Split the G FC", "manager": "Kavinu Wickremasinghe", "total": 369, "points": 50, "prev_rank": 7,
+      "headline": ["Up to fifth —", "Welbeck in, Welbeck out"],
+      "body": [
+        "<b>McBurnie</b> got <em>12</em> and dragged Split the G FC from 7th to 5th. A Hull City striker is currently the best thing about this team.",
+        "The waivers tell the real story. For GW9, Flemming out, <b>Welbeck</b> in. Welbeck scored <em>1</em>. For GW10, Welbeck out, Flemming in. Two players, two claims, back where he started."
+      ]
+    },
+    {
+      "team": "Arsene Fection", "manager": "Dulaj Wijewardena", "total": 360, "points": 38, "prev_rank": 6,
+      "headline": ["Three strikers —", "two points each"],
+      "body": [
+        "<b>Brobbey</b>, <b>Calvert-Lewin</b> and <b>Delap</b> all scored exactly <em>2</em>. You couldn't arrange that if you tried. Dulaj didn't try, he just picked them.",
+        "<b>Boscagli</b> got <em>6</em> on the bench. And Dulaj is the only manager who didn't touch the wire in either window. Either supreme confidence or he's forgotten his password."
+      ]
+    },
+    {
+      "team": "Asspine fc", "manager": "Munir Aslam", "total": 358, "points": 33, "prev_rank": 5,
+      "headline": ["Fifth to seventh —", "and he funded Sandaru's rebuild"],
+      "body": [
+        "<em>33</em> points, two places gone. Kavinu and Dulaj both went past him in one weekend.",
+        "He dropped Bruno Fernandes to sign <b>McGinn</b>. McGinn scored <em>0</em>, and a week later Sandaru claimed Fernandes. <b>Truffert</b>, a free agent, got <em>6</em>, so one move worked. And <b>Cherki</b> got <em>1</em>. Progress."
+      ]
+    },
+    {
+      "team": "Pakason FC", "manager": "Ometh De Silva", "total": 352, "points": 35, "prev_rank": 8,
+      "headline": ["Konsa and Ayari: 20 —", "everyone else: 15"],
+      "body": [
+        "<b>Konsa</b> got <em>10</em>, <b>Ayari</b> got <em>10</em>, and the other nine managed 15 between them. The bench, Saka included, got nothing.",
+        "For GW9 Ometh re-signed <b>Rayan</b>, a week after dropping him for Ayari. Rayan got <em>3</em>. Two more claims for GW10 make eight in three weeks. He's not building a squad, he's speed dating."
+      ]
+    },
+    {
+      "team": "Assnal Dulaj", "manager": "Samithu Jayasinghe", "total": 341, "points": 39, "prev_rank": 9,
+      "headline": ["Zirkzee out —", "Emersonn back in"],
+      "body": [
+        "In GW8 Samithu dropped Emersonn for Zirkzee. In GW9 he dropped Zirkzee for <b>Emersonn</b>. Emersonn scored <em>2</em>. Two claims to end up exactly where he started.",
+        "The back four scored <em>25</em>, the front three scored 6. So his GW10 move was to swap one defender for another. Samithu is looking for the leak at the wrong end of the boat."
+      ]
+    },
+    {
+      "team": "Saddam Huijsen", "manager": "Sandaru Fernando", "total": 327, "points": 26, "prev_rank": 10,
+      "headline": ["26 points —", "14 adrift at the bottom"],
+      "body": [
+        "Lowest score of the week, and the gap to 9th went from a single point to <em>14</em>. The bright spot was <b>Robertson</b>, a GW9 signing, with <em>8</em>.",
+        "The other two signings, <b>Mbaye</b> and <b>O'Reilly</b>, got <em>1</em> each. Mbaye is already gone for GW10, with Bruno Fernandes and Kluivert coming in. Last place, but he's busy."
+      ]
+    }
+  ],
+  "stars": [
+    {
+      "file": "Van-Hecke", "photo": "vanhecke.png", "focus": "47% 18%",
+      "name": "Jan Paul van Hecke", "points": 15,
+      "detail": "90 mins · 1 goal · clean sheet · 3 bonus",
+      "fixture": "Spurs 2–0 Crystal Palace", "manager": "Umar Fazeer"
+    },
+    {
+      "file": "McBurnie", "photo": "mcburnie.jpg", "focus": "38% 30%",
+      "name": "Oli McBurnie", "points": 12,
+      "detail": "90 mins · 1 goal · 1 assist · 3 bonus",
+      "fixture": "Hull City 2–2 Ipswich Town", "manager": "Kavinu Wickremasinghe"
+    },
+    {
+      "file": "Konsa", "photo": "konsa.png", "focus": "58% 28%",
+      "name": "Ezri Konsa", "points": 10,
+      "detail": "90 mins · clean sheet · 2 bonus · 2 defcon",
+      "fixture": "Liverpool 0–1 Arsenal", "manager": "Ometh De Silva"
+    }
+  ],
+  "waivers": [
+    {"manager": "Imad Imran", "moves": [["Lewis-Potter", "Janelt"], ["Bassey", "Branthwaite"]]},
+    {"manager": "Umar Fazeer", "moves": [["Scott", "Anderson"], ["Giles", "Khalaili", "FA"]]},
+    {"manager": "Rihab Suyoothi", "moves": [["Colwill", "Palestra"]]},
+    {"manager": "Vidhun Muralitharan", "moves": [["Hill", "Affengruber"]]},
+    {"manager": "Kavinu Wickremasinghe", "moves": [["Welbeck", "Flemming"]]},
+    {"manager": "Munir Aslam", "moves": [["McGinn", "B. Fernandes"], ["Truffert", "Lacroix", "FA"]]},
+    {"manager": "Ometh De Silva", "moves": [["Rayan", "Munoz"], ["Castagne", "Mitchell"]]},
+    {"manager": "Samithu Jayasinghe", "moves": [["Emersonn", "Zirkzee"], ["Sarr", "Rashford"]]},
+    {"manager": "Sandaru Fernando", "moves": [["Robertson", "Botman"], ["Mbaye", "Ngumoha"], ["O'Reilly", "Matheus N.", "FA"]]}
+  ]
+}

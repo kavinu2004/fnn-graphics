@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@500;600;700&display=block');
+
+/* Every slide is 1080x1350 over assets/template.jpg. Positions are measured against the GW6/GW7 PNGs, so change them with care. */
+:root { --lime: #d6ff4a; --ink: #020204; --mute: #8d9198; }
+html, body { margin: 0; padding: 0; width: 1080px; height: 1350px; overflow: hidden; background: #08090d; }
+* { box-sizing: border-box; }
+.slide { position: relative; width: 1080px; height: 1350px; background: url(/assets/template.jpg) 0 0 / 1080px 1350px no-repeat; color: #fff; }
+.sheet { position: absolute; left: 71.3px; top: 290.3px; right: 71.3px; bottom: 178.2px; background: rgba(2, 2, 4, .97); border-radius: 22px; overflow: hidden; }
+.sheet.glass { background: rgba(0, 0, 0, .6); }
+.lime { color: var(--lime); }
+
+/* covers: team news (GW7 cover) and series (GW6 cover) */
+.cover { position: absolute; left: 0; right: 0; text-align: center; }
+.cover .ln { position: absolute; left: 0; right: 0; text-align: center; line-height: 1; white-space: nowrap; font-family: 'Barlow Condensed', sans-serif; }
+.cover .gw { font-weight: 600; text-transform: uppercase; }
+.cover .fnn, .cover .tn { font-weight: 800; }
+.cover .net { font-weight: 600; }
+.cover .bar { position: absolute; left: 494px; width: 92px; background: var(--lime); }
+.tcover .gw { top: 501px; font-size: 46px; letter-spacing: .375em; text-indent: .375em; }
+.tcover .fnn { top: 531px; font-size: 228px; letter-spacing: .01em; text-indent: .01em; }
+.tcover .bar { top: 756px; height: 5px; }
+.tcover .net { top: 781px; font-size: 25px; letter-spacing: .216em; text-indent: .216em; }
+.tcover .tn { top: 829px; font-size: 126px; letter-spacing: .006em; text-indent: .006em; }
+.scover .gw { top: 543px; font-size: 64px; letter-spacing: .14em; text-indent: .14em; }
+.scover .fnn { top: 604px; font-size: 188px; margin-left: -4px; }
+.scover .bar { top: 795px; height: 3px; }
+.scover .net { top: 817px; font-size: 28px; letter-spacing: .21em; text-indent: .21em; }
+
+/* team-news card: GW7 header, Barlow Semi Condensed body (GW9) */
+.card { padding: 26px 34px 0; }
+.card .team { font: 700 53.5px/1 'Barlow Condensed', sans-serif; text-align: center; text-transform: uppercase; letter-spacing: 0; margin-top: -2px; }
+.card .mgr { margin-top: 4px; font: 700 27px/1 'Barlow Condensed', sans-serif; text-align: center; text-transform: uppercase; letter-spacing: .07em; color: var(--lime); }
+.card .meta { margin-top: 12px; font: 500 18px/1 'Barlow', sans-serif; text-align: center; }
+.card .meta b { font: 700 20px/1 'Barlow Condensed', sans-serif; color: var(--lime); }
+.card .meta i { font-style: normal; padding: 0 9px; }
+.card .rule { margin-top: 14.5px; height: 2px; background: var(--lime); }
+.card .hl { margin-top: 18px; font: 700 40px/38px 'Barlow Condensed', sans-serif; text-transform: uppercase; }
+.card .body p { margin: 24px 0 0; font: 500 36px/47px 'Barlow Semi Condensed', sans-serif; letter-spacing: 0; }
+.card .body p:first-child { margin-top: 20px; }
+.card .body b { font-weight: 700; color: #fff; }
+.card .body b.lime, .card .body em { font-style: normal; font-weight: 700; color: var(--lime); }
+
+/* standings: rank, movement pill, team over manager, points */
+.tbl { padding: 0 41px 0 34px; }
+.tbl .hd { position: relative; height: 45px; border-bottom: 1px solid rgba(214, 255, 74, .25); font: 700 13px/1 'Barlow Condensed', sans-serif; letter-spacing: .22em; color: var(--lime); }
+.tbl .hd span { position: absolute; top: 24px; }
+.tbl .row { position: relative; height: 82px; border-bottom: 1px solid rgba(255, 255, 255, .07); }
+.tbl .row:last-child { border-bottom: 0; }
+.tbl .rk { position: absolute; left: 0; top: 28px; font: 700 30px/1 'Barlow Condensed', sans-serif; color: var(--lime); }
+.tbl .mv { position: absolute; left: 66px; top: 27px; height: 28px; min-width: 28px; border-radius: 14px; transform: translateX(-50%); display: flex; align-items: center; justify-content: center; }
+.tbl .mv.up { background: #3ccf7e; }
+.tbl .mv.down { background: #e8375f; }
+.tbl .mv.same { background: #5d6168; width: 28px; }
+.tbl .mv.up, .tbl .mv.down { padding: 0 10px 0 6px; gap: 2px; font: 700 21px/1 'Barlow Condensed', sans-serif; color: #fff; }
+.tbl .mv svg { display: block; width: 19px; height: 19px; fill: none; stroke: #fff; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.tbl .tm { position: absolute; left: 112px; top: 20px; font: 700 33px/1 'Barlow Condensed', sans-serif; white-space: nowrap; }
+.tbl .mg { position: absolute; left: 113px; top: 56px; font: 400 15px/1 'Barlow', sans-serif; color: #c9ccd1; }
+.tbl .pt { position: absolute; right: 0; top: 26px; font: 700 34px/1 'Barlow Condensed', sans-serif; }
+
+/* star of the week: full-bleed photo */
+.star img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.star .shade { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,0,0,.45) 0, rgba(0,0,0,0) 16%, rgba(0,0,0,0) 42%, rgba(0,0,0,.55) 66%, rgba(0,0,0,.92) 100%); }
+.star .kick { position: absolute; left: 34px; top: 32px; font: 700 21px/1 'Barlow Condensed', sans-serif; letter-spacing: .25em; color: var(--lime); }
+.star .info { position: absolute; left: 40px; right: 40px; bottom: 26px; }
+.star .nm { font: 700 47px/1 'Barlow Condensed', sans-serif; text-transform: uppercase; }
+.star .pts { margin-top: 12px; font: 800 100px/.78 'Barlow Condensed', sans-serif; color: var(--lime); }
+.star .pts span { margin-left: 12px; font: 700 22px/1 'Barlow Condensed', sans-serif; letter-spacing: .25em; }
+.star .det { margin-top: 20px; font: 500 20px/1 'Barlow', sans-serif; }
+.star .fx { margin-top: 9px; font: 400 16px/1 'Barlow', sans-serif; color: #c9ccd1; }
+.star .by { margin-top: 20px; font: 400 17px/1 'Barlow', sans-serif; }
+.star .by i { font: 700 16px/1 'Barlow Condensed', sans-serif; font-style: normal; letter-spacing: .2em; color: var(--lime); margin-right: 8px; }
+.star .by b { font-weight: 600; }
+
+/* waivers: two-column grid, one block per manager, IN -> OUT */
+.wv { padding: 0 34px; }
+.wv .top { position: relative; height: 68px; border-bottom: 1px solid rgba(255, 255, 255, .22); }
+.wv .top .t { position: absolute; left: 0; top: 28px; font: 700 36px/1 'Barlow Condensed', sans-serif; letter-spacing: .12em; }
+.wv .top .g { position: absolute; right: 0; top: 41px; font: 700 15px/1 'Barlow Condensed', sans-serif; letter-spacing: .22em; color: var(--lime); }
+.wv .cols { position: relative; height: 34px; font: 700 12px/1 'Barlow Condensed', sans-serif; letter-spacing: .22em; }
+.wv .cols span { position: absolute; top: 14px; }
+.wv .grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; row-gap: 30px; margin-top: 18px; }
+.wv .who { font: 700 24px/1 'Barlow Condensed', sans-serif; text-transform: uppercase; }
+.wv .tmn { margin-top: 5px; margin-bottom: 6px; font: 400 15px/1 'Barlow', sans-serif; color: #9a9ea5; }
+.wv .mv { margin-top: 8px; font: 600 25px/1 'Barlow Condensed', sans-serif; white-space: nowrap; }
+.wv .n { color: #fff; }
+.wv .fa { margin-left: 7px; font: 700 13px/1 'Barlow Condensed', sans-serif; letter-spacing: .12em; color: var(--lime); vertical-align: 5px; }
+.wv .ar { margin: 0 9px; font: 600 20px/1 'Barlow', sans-serif; color: var(--lime); }
+.wv .o { color: #9a9ea5; font-weight: 500; }
