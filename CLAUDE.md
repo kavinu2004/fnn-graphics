@@ -15,6 +15,9 @@ The weekly Farmers League carousel. See README.md for the build steps.
 ## Card copy
 - Two short paragraphs: what happened, then the joke. Skip the stat dump, because everyone has the PL app.
 - Roast managers personally for their decisions, and give praise where it's earned. Make it funny.
+- Use relatable, everyday comparisons (the slow supermarket queue, a 2am online basket, terms and conditions nobody reads) rather than reciting points.
+- Give each card its own angle and joke. Across the set, don't open several cards with "Last week…", and don't stack "X got N, Y got N" lines.
+- Callbacks to earlier weeks are fine, but use only one or two per set.
   - No jokes about bodies, ethnicity or relationships.
   - Don't invent personal facts.
 - Never say who writes the graphics.
