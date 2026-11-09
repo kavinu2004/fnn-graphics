@@ -15,9 +15,19 @@ The weekly Farmers League carousel. See README.md for the build steps.
 ## Card copy
 - Two short paragraphs: what happened, then the joke. Skip the stat dump, because everyone has the PL app.
 - Roast managers personally for their decisions, and give praise where it's earned. Make it funny.
-- Use relatable, everyday comparisons (the slow supermarket queue, a 2am online basket, terms and conditions nobody reads) rather than reciting points.
-- Give each card its own angle and joke. Across the set, don't open several cards with "Last week…", and don't stack "X got N, Y got N" lines.
-- Callbacks to earlier weeks are fine, but use only one or two per set.
+- The humour should come from what actually happened that week. One good line per card beats several gags.
+  - No lazy puns on team or player names (e.g. Wirtz / Wirtz Case Scenario).
+  - Don't stack comparisons, and don't give every card the same "Like…" analogy.
+- Give each card its own angle. Across the set, don't open several cards with "Last week…", and don't stack "X got N, Y got N" lines.
+- Callbacks to earlier weeks are fine, but use only one or two per set, and don't reuse a punchline from a previous week.
+
+## Forfeits
+- The team that finishes 10th at the end of the season does one big forfeit.
+- Every 6 gameweeks there's a mini forfeit for whoever is last over that block:
+  - GW1–6: run a 10k. Samithu did it.
+  - GW7–12: stare at a wall for an hour. Sandaru was last after GW10.
+  - Ask the user who is last in the current block and what the next forfeit is. Don't work it out yourself.
+- Forfeits are good material for the bottom-half cards, especially near the end of a block.
   - No jokes about bodies, ethnicity or relationships.
   - Don't invent personal facts.
 - Never say who writes the graphics.
