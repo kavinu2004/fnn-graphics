@@ -1,0 +1,113 @@
+{
+  "gw": 10,
+  "table": [
+    {
+      "team": "Heung Min Dad", "manager": "Imad Imran", "total": 505, "points": 51, "prev_rank": 1,
+      "headline": ["Imad has the Wirtz —", "Umar just has the name"],
+      "body": [
+        "<b>Wirtz</b> scored, assisted and took max bonus for <em>13</em>. He plays for Heung Min Dad. Wirtz Case Scenario just has his name on the badge.",
+        "The top two both scored <em>51</em>, so the lead stays at <em>32</em>. <b>Mitoma</b>, signed for this week, watched from the bench injured. Imad didn't need him. That's the scary part."
+      ]
+    },
+    {
+      "team": "Wirtz Case Scenario", "manager": "Umar Fazeer", "total": 473, "points": 51, "prev_rank": 2,
+      "headline": ["Third week running —", "wrong keeper again"],
+      "body": [
+        "<b>Kinsky</b> started and got <em>2</em>. <b>Verbruggen</b> sat on the bench and got <em>6</em>. Three weeks in a row the backup has outscored the starter. At this point it's a hobby.",
+        "Credit where it's due: <b>Le Fée</b> <em>11</em>, <b>Dewsbury-Hall</b> <em>9</em>, <em>51</em> overall. Exactly what Imad scored, so the gap is still <em>32</em>. Running to stand still."
+      ]
+    },
+    {
+      "team": "Los Porros Hermanos", "manager": "Rihab Suyoothi", "total": 439, "points": 43, "prev_rank": 3,
+      "headline": ["Vuskovic: 12 —", "Gonzalo: 2, again"],
+      "body": [
+        "<b>Vuskovic</b> got <em>12</em>, and <b>Branthwaite</b>, fished out of Imad's bin, chipped in <em>3</em>. Third place, <em>18</em> clear of Vidhun.",
+        "<b>Gonzalo</b> kept his shirt and got <em>2</em> again. Awoniyi, benched again, also got 2. For once Rihab's striker call cost him nothing, mostly because there was nothing to win."
+      ]
+    },
+    {
+      "team": "Chennaiyin FC", "manager": "Vidhun Muralitharan", "total": 421, "points": 35, "prev_rank": 4,
+      "headline": ["Last week: nobody's hotter —", "this week: 35"],
+      "body": [
+        "We said nobody was hotter, and he scored <em>35</em>, second-lowest of the week. <b>Thiago</b> managed <em>-2</em>, which takes effort.",
+        "<b>N. Jackson</b> got <em>11</em> and <b>Gabriel</b> <em>8</em>, or it would have been worse. Fourth place is now held by a single point over Split the G FC. Vidhun has gone very quiet."
+      ]
+    },
+    {
+      "team": "Split the G FC", "manager": "Kavinu Wickremasinghe", "total": 420, "points": 51, "prev_rank": 5,
+      "headline": ["Barry 16 —", "one point off fourth"],
+      "body": [
+        "<b>Barry</b> scored two, set up another and took max bonus against Coventry: <em>16</em>, the best haul in the league this week. <b>Muharemović</b> added <em>10</em>.",
+        "Then there's the Flemming saga. Out for Welbeck, back in for Welbeck, and this week he sat on the bench for <em>0</em>. Fourth place is <em>1</em> point away. Time to get off the merry-go-round."
+      ]
+    },
+    {
+      "team": "Asspine fc", "manager": "Munir Aslam", "total": 417, "points": 59, "prev_rank": 7,
+      "headline": ["59, best in the league —", "and up to sixth"],
+      "body": [
+        "Last week <b>McGinn</b> got 0 and <b>Cherki</b> got 1. This week: <em>10</em> and <em>9</em>. Three starters didn't play, the bench covered for another <em>12</em>, and nobody scored more.",
+        "Even the bad trade evened out. He dropped Bruno Fernandes for McGinn, and this week Bruno got <em>10</em> for Sandaru. McGinn: also 10. Dulaj is the one looking over his shoulder now."
+      ]
+    },
+    {
+      "team": "Arsene Fection", "manager": "Dulaj Wijewardena", "total": 409, "points": 49, "prev_rank": 6,
+      "headline": ["49 points —", "and still went down a place"],
+      "body": [
+        "<b>Delap</b> scored twice against Man City for <em>13</em>, <b>Ødegaard</b> got <em>11</em>, and Dulaj still dropped to seventh because Munir picked this week to score 59.",
+        "Last week all three strikers got 2. This week Delap went off, and <b>Calvert-Lewin</b> kept the tradition alive with <em>2</em>. Still no waiver claims, by the way. The password reset is in his spam."
+      ]
+    },
+    {
+      "team": "Pakason FC", "manager": "Ometh De Silva", "total": 391, "points": 39, "prev_rank": 8,
+      "headline": ["Defence: 29 —", "the front two: 1"],
+      "body": [
+        "<b>Roefs</b> <em>9</em>, <b>Konsa</b> <em>8</em>, <b>Castagne</b> <em>7</em>. Keeper and back four made <em>29</em>. Up front, <b>Igor Jesus</b> and <b>Solanke</b> made 1 between them.",
+        "The two new signings also made 1 between them, <b>Khusanov</b> on the pitch and Acheampong on the bench. Castagne, a GW9 claim, is the one that worked. Speed dating does sometimes get a second date."
+      ]
+    },
+    {
+      "team": "Assnal Dulaj", "manager": "Samithu Jayasinghe", "total": 375, "points": 34, "prev_rank": 9,
+      "headline": ["Lowest score of the week —", "10 points sat on the bench"],
+      "body": [
+        "<b>Lammens</b> started in goal and got <em>1</em>. <b>Trafford</b> sat on the bench and got <em>10</em>. A nine-point keeper call on a <em>34</em>-point week, the lowest in the league.",
+        "The waiver move was <b>Matheus N.</b>, the defender Sandaru threw back a week earlier. He got <em>1</em>. The gap to Sandaru in last is down to <em>7</em>, and Samithu has noticed."
+      ]
+    },
+    {
+      "team": "Saddam Huijsen", "manager": "Sandaru Fernando", "total": 368, "points": 41, "prev_rank": 10,
+      "headline": ["Still last —", "but the gap is halved"],
+      "body": [
+        "Last week he was <em>14</em> adrift. Now it's <em>7</em>. Both new signings started: <b>Bruno Fernandes</b> got <em>10</em> and <b>Kluivert</b> <em>3</em>.",
+        "Bruno was Munir's cast-off, so this is the rare waiver that worked out for everyone. <b>Isak</b> got <em>8</em>, and <b>Costinha</b> got <em>6</em> on the bench, because nothing goes fully right down here."
+      ]
+    }
+  ],
+  "stars": [
+    {
+      "file": "Barry", "photo": "barry.jpeg", "focus": "30% 50%",
+      "name": "Thierno Barry", "points": 16,
+      "detail": "90 mins · 2 goals · 1 assist · 3 bonus",
+      "fixture": "Everton 3–1 Coventry City", "manager": "Kavinu Wickremasinghe"
+    },
+    {
+      "file": "Wirtz", "photo": "wirtz.png", "focus": "14% 30%",
+      "name": "Florian Wirtz", "points": 13,
+      "detail": "90 mins · 1 goal · 1 assist · 3 bonus",
+      "fixture": "Crystal Palace 1–3 Liverpool", "manager": "Imad Imran"
+    },
+    {
+      "file": "Delap", "photo": "delap.jpg", "focus": "35% 30%",
+      "name": "Liam Delap", "points": 13,
+      "detail": "86 mins · 2 goals · 3 bonus",
+      "fixture": "Nott'm Forest 3–1 Man City", "manager": "Dulaj Wijewardena"
+    }
+  ],
+  "waivers": [
+    {"manager": "Imad Imran", "moves": [["Mitoma", "Lewis-Potter"]]},
+    {"manager": "Rihab Suyoothi", "moves": [["Branthwaite", "Gudmundsson"]]},
+    {"manager": "Kavinu Wickremasinghe", "moves": [["Flemming", "Welbeck"]]},
+    {"manager": "Ometh De Silva", "moves": [["Khusanov", "Maitland-Niles"], ["Acheampong", "Hato"]]},
+    {"manager": "Samithu Jayasinghe", "moves": [["Matheus N.", "Justin"]]},
+    {"manager": "Sandaru Fernando", "moves": [["B. Fernandes", "Mbaye"], ["Kluivert", "Eze"]]}
+  ]
+}
