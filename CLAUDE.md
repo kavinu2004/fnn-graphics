@@ -16,9 +16,9 @@ The weekly Farmers League carousel. See README.md for the build steps.
 - Two short paragraphs: what happened, then the joke. Skip the stat dump, because everyone has the PL app.
 - Roast managers personally for their decisions, and give praise where it's earned. Make it funny.
 - The humour should come from what actually happened that week. One good line per card beats several gags.
-- Write in loose football-banter vernacular (hauled, blanked, did bits, crocked, rode the pine, bagged a brace, green/red arrow, binned) rather than flat match-report English.
   - No lazy puns on team or player names (e.g. Wirtz / Wirtz Case Scenario).
   - Don't stack comparisons, and don't give every card the same "Like…" analogy.
+- Write in loose football-banter vernacular (hauled, blanked, did bits, crocked, rode the pine, bagged a brace, green/red arrow, binned) rather than flat match-report English.
 - Give each card its own angle. Across the set, don't open several cards with "Last week…", and don't stack "X got N, Y got N" lines.
 - Callbacks to earlier weeks are fine, but use only one or two per set, and don't reuse a punchline from a previous week.
 
