@@ -13,24 +13,30 @@ The weekly Farmers League carousel. See README.md for the build steps.
 - Don't touch styles/base.css unless the user asks for a visual change. After any CSS change, rebuild gw9.json and diff it against the shipped GW9 PNGs.
 
 ## Card copy
-- Two short paragraphs: what happened, then the joke. Skip the stat dump, because everyone has the PL app.
-- Roast managers personally for their decisions, and give praise where it's earned. Make it funny.
-- The humour should come from what actually happened that week. One good line per card beats several gags.
+- **Voice reference:** the user wrote the GW10 cards for Heung Min Dad, Wirtz Case Scenario and Los Porros Hermanos (see `gameweeks/gw10.json`). Match that voice.
+  - Present-tense storytelling about the team's week, not a stat recap.
+  - Refer to teams the way the league does ("the Heung Min boys", "Los Porros lives in the heat").
+  - Bring in the forfeit table and the race around a team, and end on what's next (a squad revamp, someone closing in).
+  - Mostly warm. A light roast ("whenever Umar decides to start the right keeper…"), with the occasional throwaway slang line ("the boys are right on his ahh").
+- If the user writes any cards themselves, use their text as written, fixing only typos, accents and player-name spellings.
+- Two short paragraphs per card. Skip the stat dump, because everyone has the PL app.
+- The humour should come from what actually happened that week.
   - No lazy puns on team or player names (e.g. Wirtz / Wirtz Case Scenario).
-  - Don't stack comparisons, and don't give every card the same "Like…" analogy.
-- Write in loose football-banter vernacular (hauled, blanked, did bits, crocked, rode the pine, bagged a brace, green/red arrow, binned) rather than flat match-report English.
-- Give each card its own angle. Across the set, don't open several cards with "Last week…", and don't stack "X got N, Y got N" lines.
-- Callbacks to earlier weeks are fine, but use only one or two per set, and don't reuse a punchline from a previous week.
+  - Don't stack comparisons.
+  - Don't open several cards with "Last week…".
+  - Don't stack "X got N, Y got N" lines.
+- No jokes about bodies, ethnicity or relationships. Don't invent personal facts.
+- Never say who writes the graphics.
+- Check every claim against the data: points, who signed whom, which week.
+- Line breaks:
+  - Reword lines so they don't break on a hyphen at the card width.
+  - Use `&nbsp;` to keep two-word names together (Le&nbsp;Fée, N.&nbsp;Jackson, Split&nbsp;the&nbsp;G).
+  - Check the rendered PNG.
 
 ## Forfeits
 - The team that finishes 10th at the end of the season does one big forfeit.
-- Every 6 gameweeks there's a mini forfeit for whoever is last over that block:
+- Every 6 gameweeks there's a mini forfeit for whoever is last on the forfeit table over that block:
   - GW1–6: run a 10k. Samithu did it.
-  - GW7–12: stare at a wall for an hour. Sandaru was last after GW10.
-  - Ask the user who is last in the current block and what the next forfeit is. Don't work it out yourself.
-- Forfeits are good material for the bottom-half cards, especially near the end of a block.
-  - No jokes about bodies, ethnicity or relationships.
-  - Don't invent personal facts.
-- Never say who writes the graphics.
-- Check every claim against the data: points, who signed whom, which week.
-- Reword lines so they don't break on a hyphen at the card width. Check the rendered PNG.
+  - GW7–12: stare at a wall for an hour. After GW10, Sandaru was last and Imad had climbed from 9th to 6th.
+- Ask the user for forfeit-table positions. They aren't in the app screenshots, so don't work them out yourself.
+- The forfeit race is good material, especially for the bottom-half cards and near the end of a block.
