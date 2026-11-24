@@ -11,6 +11,7 @@ The weekly Farmers League carousel. See README.md for the build steps.
 - Ask which gameweek the waiver screenshots belong to. GW9 first shipped with GW10's waivers by mistake.
   - The waiver slide shows the moves processed before that week.
   - The following week's waivers are good material for card jokes (how managers reacted).
+- Trades between managers don't show on the waiver screen. Compare each squad with last week's lineup to catch them. GW11: Rihab got Guéhi and McBurnie from Kavinu for Colwill and Gonzalo, which the user confirmed.
 - Don't touch styles/base.css unless the user asks for a visual change. After any CSS change, rebuild gw9.json and diff it against the shipped GW9 PNGs.
 
 ## Card copy
