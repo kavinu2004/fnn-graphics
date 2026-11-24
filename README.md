@@ -54,6 +54,16 @@ Files are named `Farmers-League-GW{N}-…png`, in carousel order:
 | `00-Team-News` | team-news cover |
 | `01-…` to `10-…` | one card per team: Overall, Total, GW points, headline, two paragraphs |
 
+## Story slides
+
+A single data-story slide (one headline, one chart) built from `stories/gwN-name.json`:
+
+```bash
+.venv/bin/python story.py stories/gw11-bench.json --out ~/Desktop/FNN
+```
+
+It writes `Farmers-League-GW11-Story-Bench.png` at 2160×2700. The JSON holds the raw data (for the bench story, each team's bench players and their points); the headline, deck and footnote use `{placeholders}` so every number comes from that data. Set `"photo"` to a file in `assets/photos/` (with an optional `"focus"`) to replace the floodlit stand-in background.
+
 ## Copy markup
 
 The `headline` and `body` fields are HTML:

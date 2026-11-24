@@ -4,6 +4,7 @@ The weekly Farmers League carousel. See README.md for the build steps.
 
 ## Rules
 - Render slides only with `build.py`: HTML over the template, Chromium screenshot, deviceScaleFactor 1, one clip per slide.
+  - Exception: data-story slides (`story.py`, `stories/*.json`, `styles/story.css`) follow the FNN story brief: exported at 2x (2160×2700), sRGB, no P3 flag.
   - Never use image generation; names and numbers have to be exact.
   - Never crop or resize the PNGs afterwards (no sips, no PIL).
 - Copy every number from the user's screenshots. Don't infer or round anything.
@@ -32,6 +33,12 @@ The weekly Farmers League carousel. See README.md for the build steps.
   - Reword lines so they don't break on a hyphen at the card width.
   - Use `&nbsp;` to keep two-word names together (Le&nbsp;Fée, N.&nbsp;Jackson, Split&nbsp;the&nbsp;G).
   - Check the rendered PNG.
+
+## Story slides
+- One headline, one story, one chart, one highlighted team; everyone else is grey. Word budgets: headline ≤ 5, deck ≤ 14, footnote ≤ 12. `story.py` refuses to build over budget.
+- Every number in the copy is a `{placeholder}` computed from the JSON (`value`, `top_player`, `top_points`, `mean`…). Typed digits in the headline, deck or footnote stop the build.
+- Colour meaning is fixed: gold = the team the story is about, lime = ahead/gained/top three, red = behind/lost/forfeit/bottom three. Chrome only on the headline, masthead plate and slide tab.
+- The photo layer needs an anonymous night-match photo (no faces, logos, numbers or sponsors). Don't generate one. Until the user supplies one, `"photo": null` renders a floodlit-haze stand-in.
 
 ## Forfeits
 - The team that finishes 10th at the end of the season does one big forfeit.
