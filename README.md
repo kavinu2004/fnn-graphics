@@ -62,7 +62,7 @@ A single data-story slide (one headline, one chart) built from `stories/gwN-name
 .venv/bin/python story.py stories/gw11-bench.json --out ~/Desktop/FNN
 ```
 
-It writes `Farmers-League-GW11-Story-Bench.png` at 2160×2700. The JSON holds the raw data (for the bench story, each team's bench players and their points); the headline, deck and footnote use `{placeholders}` so every number comes from that data. Set `"photo"` to a file in `assets/photos/` (with an optional `"focus"`) to replace the floodlit stand-in background.
+It writes `Farmers-League-GW11-Story-Bench.png` at 2160×2700. The JSON holds the raw data (for the bench story, each team's bench players and their points); the headline, deck and footnote use `{placeholders}` so every number comes from that data. Set `"photo"` to a file in `assets/photos/`, and `"photo_place"` (`width`, `left`, `top` in px) to position it so the subject sits upper-right; with no photo, a floodlit stand-in renders. `"headline_size"` and `"headline_width"` control how the headline wraps.
 
 ## Copy markup
 

@@ -94,16 +94,20 @@ def chart(data, ctx, teams, hl):
 def slide(data):
     ctx, teams, hl = context(data)
     check(data, ctx)
-    photo = (f'<img class="photo" src="/assets/photos/{data["photo"]}" style="object-position:{data.get("focus", "70% 30%")}">'
+    place = data.get("photo_place")  # {"width", "left", "top"} in px, to put the subject upper-right, clear of the headline
+    style = (f'width:{place["width"]}px;height:auto;left:{place["left"]}px;top:{place["top"]}px' if place
+             else f'object-position:{data.get("focus", "70% 30%")}')
+    photo = (f'<img class="photo{" placed" if place else ""}" src="/assets/photos/{data["photo"]}" style="{style}">'
              if data.get("photo") else '<div class="atmos"></div>')
-    head = " ".join(f'<span class="chrome {tone}">{html.escape(t.format(**ctx))}</span>' for t, tone in data["headline"])
+    head = " ".join(f'<span class="chrome {tone}">{html.escape(w)}</span>'
+                    for t, tone in data["headline"] for w in t.format(**ctx).split())
     label, span = (k.format(**ctx) for k in data["kicker"])
     n, total = data["slide"]
     return f'''{photo}<div class="grain"></div><div class="rim"></div><div class="lfade"></div><div class="vfade"></div><div class="frame"></div>
 <div class="mast"><div class="plate"></div>{CREST}<div class="fl">FARMERS LEAGUE</div><div class="fnn">FNN</div><div class="chip">GW{ctx["gw"]}</div></div>
 <div class="kick"><i></i><b>{html.escape(label)}</b><span>{html.escape(span)}</span></div>
-<h1>{head}</h1>
-<p class="deck">{html.escape(data["deck"].format(**ctx))}</p>
+<div class="lede"><h1 style="font-size:{data.get("headline_size", 150)}px;max-width:{data.get("headline_width", 936)}px">{head}</h1>
+<p class="deck">{html.escape(data["deck"].format(**ctx))}</p></div>
 {chart(data, ctx, teams, hl)}
 <div class="foot">{html.escape(data["footnote"].format(**ctx))}</div>
 <div class="brand">FARMERS NEWS NETWORK · EST 2019</div>

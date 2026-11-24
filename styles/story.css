@@ -53,9 +53,11 @@ html, body { width: 1080px; height: 1350px; background: var(--ground); overflow:
 .kick i { width: 14px; height: 14px; background: var(--lime); }
 .kick b { font-weight: 600; color: var(--lime); }
 .kick span { color: var(--steel); margin-left: 8px; }
-h1 { left: 72px; top: 236px; width: 936px; font: 400 150px/1 Anton; text-transform: uppercase; letter-spacing: .005em; }
+.photo.placed { inset: auto; object-fit: fill; }
+.lede { left: 72px; top: 236px; width: 936px; display: flex; flex-direction: column; gap: 14px; }
+h1 { font: 400 150px/.94 Anton; text-transform: uppercase; letter-spacing: .005em; }
 h1 .chrome { padding: 0 .02em; }
-.deck { left: 72px; top: 410px; width: 640px; font: 500 34px/1.3 Archivo; color: var(--text); }
+.deck { width: 640px; font: 500 34px/1.3 Archivo; color: var(--text); }
 
 /* chart: flat, no effects */
 .chart { left: 72px; top: 590px; width: 936px; height: 600px; }

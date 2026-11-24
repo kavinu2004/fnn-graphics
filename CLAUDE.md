@@ -5,7 +5,7 @@ The weekly Farmers League carousel. See README.md for the build steps.
 ## Rules
 - Render slides only with `build.py`: HTML over the template, Chromium screenshot, deviceScaleFactor 1, one clip per slide.
   - Exception: data-story slides (`story.py`, `stories/*.json`, `styles/story.css`) follow the FNN story brief: exported at 2x (2160×2700), sRGB, no P3 flag.
-  - Never use image generation; names and numbers have to be exact.
+  - Never use image generation for anything with names or numbers. Story-slide background photos are the one exception (see Story slides).
   - Never crop or resize the PNGs afterwards (no sips, no PIL).
 - Copy every number from the user's screenshots. Don't infer or round anything.
 - Ask which gameweek the waiver screenshots belong to. GW9 first shipped with GW10's waivers by mistake.
@@ -38,7 +38,8 @@ The weekly Farmers League carousel. See README.md for the build steps.
 - One headline, one story, one chart, one highlighted team; everyone else is grey. Word budgets: headline ≤ 5, deck ≤ 14, footnote ≤ 12. `story.py` refuses to build over budget.
 - Every number in the copy is a `{placeholder}` computed from the JSON (`value`, `top_player`, `top_points`, `mean`…). Typed digits in the headline, deck or footnote stop the build.
 - Colour meaning is fixed: gold = the team the story is about, lime = ahead/gained/top three, red = behind/lost/forfeit/bottom three. Chrome only on the headline, masthead plate and slide tab.
-- The photo layer needs an anonymous night-match photo (no faces, logos, numbers or sponsors). Don't generate one. Until the user supplies one, `"photo": null` renders a floodlit-haze stand-in.
+- The photo layer is an anonymous night-match photo (no faces, logos, numbers, sponsors or text). The user approved generated photos for story backgrounds only (GW11: `assets/photos/story-bench-night.png`). Generated images never carry names or numbers; those stay in the HTML. `"photo": null` renders a floodlit-haze stand-in.
+- Use `photo_place` (`width`/`left`/`top`) to put the subject upper-right, and `headline_size`/`headline_width` to stack the headline on the left, so the subject never sits behind headline words.
 
 ## Forfeits
 - The team that finishes 10th at the end of the season does one big forfeit.
