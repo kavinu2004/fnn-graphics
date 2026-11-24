@@ -35,6 +35,12 @@ The weekly Farmers League carousel. See README.md for the build steps.
   - Use `&nbsp;` to keep two-word names together (Le&nbsp;Fée, N.&nbsp;Jackson, Split&nbsp;the&nbsp;G).
   - Check the rendered PNG.
 
+## Chrome carousel
+- The user wants the weekly carousel in the chrome style from GW11 on: render it with `chrome.py` from the gwN.json `chrome` section (README has the fields). `build.py` still renders the old template if they ask for it.
+- Chrome tones are silver, gold and red only. Lime is flat colour (kicker, IN, top three), never chrome.
+- Background photos: six generated night photos (`assets/photos/story-*-night.png`: race, form, keeper, touchline, breaking, stadium, plus bench), reused by theme. Stars use the real player photos.
+- Card body copy keeps the house voice and the two-paragraph format; the chrome headline above it is ≤5 words built on one number.
+
 ## Story slides
 - One headline, one story, one chart, one highlighted team; everyone else is grey. Word budgets: headline ≤ 5, deck ≤ 14, footnote ≤ 12. `story.py` refuses to build over budget.
 - Every number in the copy is a `{placeholder}` computed from the JSON (`value`, `top_player`, `top_points`, `mean`…). Typed digits in the headline, deck or footnote stop the build.

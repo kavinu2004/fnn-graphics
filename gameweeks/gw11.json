@@ -234,5 +234,469 @@
         ]
       ]
     }
-  ]
+  ],
+  "chrome": {
+    "cover": {
+      "photo": "story-stadium-night.png",
+      "place": {
+        "width": 1080,
+        "left": 0,
+        "top": 0
+      },
+      "headline": [
+        [
+          "GAMEWEEK",
+          "silver"
+        ],
+        [
+          "{gw}.",
+          "gold"
+        ]
+      ],
+      "deck": "The table, the stars, the waivers and every team, in one place."
+    },
+    "standings": {
+      "photo": "story-race-night.png",
+      "place": {
+        "width": 1080,
+        "left": 0,
+        "top": -150
+      },
+      "headline": [
+        [
+          "{lead}",
+          "gold"
+        ],
+        [
+          "CLEAR.",
+          "silver"
+        ]
+      ],
+      "size": 124,
+      "width": 620,
+      "deck": "Wirtz does it again, and the Heung Min boys pull further away.",
+      "footnote": "Arrows show movement since last gameweek."
+    },
+    "stars": {
+      "Wirtz": {
+        "short": "Wirtz",
+        "place": {
+          "width": 1138,
+          "left": 559,
+          "top": 60
+        },
+        "breakdown": [
+          [
+            "Minutes played",
+            "90",
+            2
+          ],
+          [
+            "Goals",
+            "1",
+            5
+          ],
+          [
+            "Assists",
+            "1",
+            3
+          ],
+          [
+            "Clean sheet",
+            "1",
+            1
+          ],
+          [
+            "Bonus",
+            "3",
+            3
+          ]
+        ]
+      },
+      "Hill": {
+        "short": "Hill",
+        "place": {
+          "width": 1138,
+          "left": 365,
+          "top": 60
+        },
+        "breakdown": [
+          [
+            "Minutes played",
+            "90",
+            2
+          ],
+          [
+            "Assists",
+            "1",
+            3
+          ],
+          [
+            "Clean sheet",
+            "1",
+            4
+          ],
+          [
+            "Bonus",
+            "3",
+            3
+          ],
+          [
+            "Def. contributions",
+            "14",
+            2
+          ]
+        ]
+      },
+      "Porro": {
+        "short": "Porro",
+        "place": {
+          "width": 1138,
+          "left": 6,
+          "top": 100
+        },
+        "breakdown": [
+          [
+            "Minutes played",
+            "90",
+            2
+          ],
+          [
+            "Assists",
+            "1",
+            3
+          ],
+          [
+            "Clean sheet",
+            "1",
+            4
+          ],
+          [
+            "Bonus",
+            "2",
+            2
+          ]
+        ]
+      }
+    },
+    "bench": "stories/gw11-bench.json",
+    "waivers": {
+      "photo": "story-touchline-night.png",
+      "place": {
+        "width": 1080,
+        "left": 0,
+        "top": -60
+      },
+      "headline": [
+        [
+          "{claims}",
+          "gold"
+        ],
+        [
+          "CLAIMS.",
+          "silver"
+        ],
+        [
+          "",
+          "br"
+        ],
+        [
+          "{trades}",
+          "gold"
+        ],
+        [
+          "{trade_word}",
+          "silver"
+        ]
+      ],
+      "size": 124,
+      "width": 620,
+      "deck": "Ometh finally signs a striker. Rihab and Kavinu do the deal of the week.",
+      "footnote": "FA marks a free-agent signing."
+    },
+    "trades": [
+      {
+        "a": "Rihab Suyoothi",
+        "b": "Kavinu Wickremasinghe",
+        "a_gets": [
+          "Guéhi",
+          "McBurnie"
+        ],
+        "b_gets": [
+          "Colwill",
+          "Gonzalo"
+        ]
+      }
+    ],
+    "team_news": {
+      "photo": "story-breaking-night.png",
+      "place": {
+        "width": 1080,
+        "left": 0,
+        "top": -100
+      },
+      "headline": [
+        [
+          "TEAM",
+          "silver"
+        ],
+        [
+          "NEWS.",
+          "silver"
+        ]
+      ],
+      "size": 124,
+      "width": 620,
+      "deck": "Every team. Who climbed, who slid, and who's staring at a wall.",
+      "footnote": "Points scored this gameweek."
+    },
+    "cards": {
+      "Heung Min Dad": {
+        "photo": "story-form-night.png",
+        "place": {
+          "width": 1080,
+          "left": 0,
+          "top": -80
+        },
+        "headline": [
+          [
+            "{lead}",
+            "gold"
+          ],
+          [
+            "CLEAR.",
+            "silver"
+          ]
+        ],
+        "size": 136,
+        "width": 600
+      },
+      "Wirtz Case Scenario": {
+        "photo": "story-keeper-night.png",
+        "place": {
+          "width": 1080,
+          "left": 200,
+          "top": -40
+        },
+        "headline": [
+          [
+            "THE OTHER KEEPER:",
+            "silver"
+          ],
+          [
+            "{kinsky}.",
+            "red"
+          ]
+        ],
+        "facts": {
+          "kinsky": 7
+        },
+        "size": 136,
+        "width": 600
+      },
+      "Los Porros Hermanos": {
+        "photo": "story-bench-night.png",
+        "place": {
+          "width": 1080,
+          "left": 0,
+          "top": -204
+        },
+        "headline": [
+          [
+            "{mcburnie}",
+            "red"
+          ],
+          [
+            "ON THE BENCH.",
+            "silver"
+          ]
+        ],
+        "facts": {
+          "mcburnie": 13
+        },
+        "size": 136,
+        "width": 600
+      },
+      "Split the G FC": {
+        "photo": "story-touchline-night.png",
+        "place": {
+          "width": 1080,
+          "left": 0,
+          "top": -60
+        },
+        "headline": [
+          [
+            "UP TO",
+            "silver"
+          ],
+          [
+            "{ordinal}.",
+            "gold"
+          ]
+        ],
+        "size": 136,
+        "width": 600
+      },
+      "Chennaiyin FC": {
+        "photo": "story-breaking-night.png",
+        "place": {
+          "width": 1080,
+          "left": 0,
+          "top": -100
+        },
+        "headline": [
+          [
+            "DOWN TO",
+            "silver"
+          ],
+          [
+            "{ordinal}.",
+            "red"
+          ]
+        ],
+        "size": 136,
+        "width": 600
+      },
+      "Arsene Fection": {
+        "photo": "story-touchline-night.png",
+        "place": {
+          "width": 1080,
+          "left": 0,
+          "top": -60
+        },
+        "headline": [
+          [
+            "BACK UP",
+            "silver"
+          ],
+          [
+            "",
+            "br"
+          ],
+          [
+            "TO",
+            "silver"
+          ],
+          [
+            "{ordinal}.",
+            "gold"
+          ]
+        ],
+        "size": 136,
+        "width": 600
+      },
+      "Asspine fc": {
+        "photo": "story-stadium-night.png",
+        "place": {
+          "width": 1080,
+          "left": 0,
+          "top": 0
+        },
+        "headline": [
+          [
+            "{prev_points}",
+            "silver"
+          ],
+          [
+            "TO",
+            "silver"
+          ],
+          [
+            "{points}.",
+            "red"
+          ]
+        ],
+        "size": 136,
+        "width": 600
+      },
+      "Pakason FC": {
+        "photo": "story-breaking-night.png",
+        "place": {
+          "width": 1080,
+          "left": 0,
+          "top": -100
+        },
+        "headline": [
+          [
+            "ATTACK:",
+            "silver"
+          ],
+          [
+            "",
+            "br"
+          ],
+          [
+            "{attack_prev}",
+            "silver"
+          ],
+          [
+            "TO",
+            "silver"
+          ],
+          [
+            "{attack}.",
+            "gold"
+          ]
+        ],
+        "facts": {
+          "attack_prev": 1,
+          "attack": 16
+        },
+        "size": 136,
+        "width": 600
+      },
+      "Assnal Dulaj": {
+        "photo": "story-race-night.png",
+        "place": {
+          "width": 1080,
+          "left": 0,
+          "top": -150
+        },
+        "headline": [
+          [
+            "{gap_below}",
+            "gold"
+          ],
+          [
+            "CLEAR",
+            "silver"
+          ],
+          [
+            "",
+            "br"
+          ],
+          [
+            "OF LAST.",
+            "silver"
+          ]
+        ],
+        "size": 136,
+        "width": 600
+      },
+      "Saddam Huijsen": {
+        "photo": "story-keeper-night.png",
+        "place": {
+          "width": 1080,
+          "left": 200,
+          "top": -40
+        },
+        "headline": [
+          [
+            "{points}.",
+            "red"
+          ],
+          [
+            "",
+            "br"
+          ],
+          [
+            "LOWEST.",
+            "silver"
+          ]
+        ],
+        "size": 136,
+        "width": 600
+      }
+    }
+  }
 }

@@ -54,6 +54,24 @@ Files are named `Farmers-League-GW{N}-…png`, in carousel order:
 | `00-Team-News` | team-news cover |
 | `01-…` to `10-…` | one card per team: Overall, Total, GW points, headline, two paragraphs |
 
+## Chrome carousel
+
+The whole gameweek in the FNN chrome style (masthead plate, chrome headline, one chart per slide, numbered tab), from the same `gwN.json` plus its `chrome` section:
+
+```bash
+.venv/bin/python chrome.py gameweeks/gw11.json --out ~/Desktop/FNN/GW11-chrome
+```
+
+It writes 18 slides at 2160×2700: cover with contents, table, one per star (points breakdown), the bench story, waivers and trades, team news (GW scores, lime top three, red bottom three) and one card per team (overall, total, GW points, then the two card paragraphs).
+
+The `chrome` section holds, per slide:
+- `photo` and `place` (`width`/`left`/`top`): the background, positioned so the subject sits upper-right, clear of the headline.
+- `headline`: `[text, tone]` segments, tone `silver`, `gold` or `red` (`["", "br"]` forces a line break). Numbers are `{placeholders}`: `gw`, `lead`, `ordinal`, `total`, `points`, `prev_points` (last week), `gap_above`, `gap_below`, `claims`, `trades`, or a card's own `facts`.
+- `stars.<file>.breakdown`: `[label, stat, points]` rows from the PL app popup; the build checks they add up to the star's points.
+- `trades`: swaps between managers, which the waiver screen doesn't show.
+
+`chrome.py` stops if a headline, deck or footnote goes over its word budget or has a number typed in.
+
 ## Story slides
 
 A single data-story slide (one headline, one chart) built from `stories/gwN-name.json`:

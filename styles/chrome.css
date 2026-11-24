@@ -1,0 +1,52 @@
+/* Chrome carousel: the pieces story.css doesn't have. Flat colour only; chrome stays on headline, plate and tab. */
+
+/* cover: in this issue */
+.contents { left: 72px; top: 760px; width: 936px; }
+.contents .item { display: flex; align-items: baseline; gap: 28px; height: 78px; border-top: 1px solid rgba(230,232,230,.14); }
+.contents .item:last-child { border-bottom: 1px solid rgba(230,232,230,.14); }
+.contents b { width: 64px; font: 400 44px/78px Anton; color: var(--lime); }
+.contents span { font: 600 36px/78px "Barlow Condensed"; letter-spacing: .16em; text-transform: uppercase; color: var(--text); }
+
+/* shared column header */
+.thead { position: absolute; left: 0; top: 0; width: 936px; height: 30px; font: 600 24px/30px "Barlow Condensed"; letter-spacing: .22em; color: var(--muted); }
+.thead > span { position: absolute; top: 0; }
+
+/* standings */
+.table .thead .tm { left: 150px; } .table .thead .gw { right: 150px; } .table .thead .pt { right: 0; }
+.trow { position: absolute; left: 0; width: 936px; height: 54px; border-top: 1px solid rgba(230,232,230,.10); }
+.trow > span { position: absolute; top: 0; line-height: 54px; }
+.trow .rk { left: 0; width: 44px; font: 700 32px/54px "Barlow Condensed"; color: var(--muted); }
+.trow .mv { left: 58px; width: 80px; font: 700 26px/54px "Barlow Condensed"; letter-spacing: .04em; }
+.trow .tm { left: 150px; font: 500 30px/54px Archivo; color: var(--text); white-space: nowrap; }
+.trow .gw { right: 150px; font: 700 32px/54px "Barlow Condensed"; color: var(--muted); }
+.trow .pt { right: 0; font: 700 38px/54px "Barlow Condensed"; color: var(--text); }
+.trow.on .tm { font-weight: 700; color: var(--gold); }
+.trow.on .pt, .trow.on .rk { color: var(--gold); }
+.mv .up, .mv .down, .mv .same, .tile .up, .tile .down, .tile .same { font-weight: 700; }
+.up { color: var(--lime); } .down { color: var(--red); } .same { color: var(--muted); }
+
+/* stars: stat value beside the label */
+.row .nm i { font-style: normal; color: var(--muted); margin-left: 6px; }
+
+/* waivers */
+.wv .thead .who { left: 0; } .wv .thead .in { left: 230px; } .wv .thead .out { left: 600px; }
+.wrow { position: absolute; left: 0; width: 936px; height: 54px; border-top: 1px solid rgba(230,232,230,.10); }
+.wrow > span { position: absolute; top: 0; line-height: 54px; white-space: nowrap; }
+.wrow .who { left: 0; font: 600 30px/54px Archivo; color: var(--steel); }
+.wrow .in { left: 230px; font: 700 30px/54px Archivo; color: var(--lime); }
+.wrow .in em { font: 700 22px/1 "Barlow Condensed"; font-style: normal; letter-spacing: .1em; margin-left: 10px; padding: 2px 6px; border: 1px solid var(--lime); }
+.wrow .ar { left: 550px; font: 500 30px/54px Archivo; color: var(--muted); }
+.wrow .out { left: 600px; font: 500 30px/54px Archivo; color: var(--muted); }
+.wsub { position: absolute; left: 0; font: 600 24px/30px "Barlow Condensed"; letter-spacing: .22em; color: var(--muted); }
+
+/* team cards */
+.tiles { left: 72px; top: 590px; width: 936px; height: 132px; display: flex; gap: 18px; }
+.tile { position: relative; flex: 1; border-top: 2px solid rgba(230,232,230,.26); padding-top: 12px; }
+.tile i { display: block; font: 600 24px/30px "Barlow Condensed"; font-style: normal; letter-spacing: .22em; color: var(--muted); }
+.tile > b:first-of-type { font: 400 68px/80px Anton; color: var(--text); font-weight: 400; }
+.tile .up, .tile .down, .tile .same { margin-left: 14px; font: 700 32px/80px "Barlow Condensed"; vertical-align: top; }
+.tile.hl { border-top-color: var(--gold); }
+.tile.hl > b:first-of-type { color: var(--gold); }
+.cbody { left: 72px; top: 752px; width: 936px; font: 500 32px/1.42 Archivo; color: #D6DAD8; }
+.cbody p + p { margin-top: 18px; }
+.cbody b, .cbody em { font-style: normal; font-weight: 700; color: #FFFFFF; }
